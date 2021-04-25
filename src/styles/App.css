@@ -1,0 +1,57 @@
+body {
+  margin: 40px auto;
+  max-width: 480px;
+  line-height: 1.6;
+  font-size: 18px;
+  color: #444;
+  padding: 0;
+}
+
+h3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 5fr 2fr 1fr;
+  border-bottom: solid 1px;
+  margin-bottom: 2px;
+}
+
+.form {
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns:  7fr 2fr;
+}
+
+.complete {
+  color: #c4c4c4 
+}
+
+.btn {
+  background-color: #0000CD;
+  border: none; 
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 1px;
+}
+
+.btn-remove {
+  background-color: #ff0000c4;
+}
+
+.btn-complete {
+  background-color: #c4c4c4;
+  color: white; 
+}
+
+.btn-success {
+  background-color: green;
+}
